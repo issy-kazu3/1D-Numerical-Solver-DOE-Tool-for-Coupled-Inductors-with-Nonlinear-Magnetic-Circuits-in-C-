@@ -22,7 +22,7 @@ Although the magnetic material exhibits nonlinear B-H characteristics, the magne
   - Accounts for multi-path flux leakage, gap reluctance, and saturation effects across various core segments.
   - Computes time-varying current waveforms, self-inductance ($L$), mutual inductance ($M$), and magnetic flux density ($B$).
 
-
+https://github.com/issy-kazu3/1D-Numerical-Solver-DOE-Tool-for-Coupled-Inductors-with-Nonlinear-Magnetic-Circuits-in-C-/blob/main/images/github_1.png
 
 
 - **High-Performance C++ DOE Framework**:
