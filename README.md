@@ -33,6 +33,8 @@ Although the magnetic material exhibits nonlinear B-H characteristics, the magne
 - **Fast Design Space Screening**:
   - Reduces optimization time from days (using 3D FEM) to minutes by leveraging 1D equivalent circuit formulations.
 
+![DOE](https://github.com/issy-kazu3/1D-Numerical-Solver-DOE-Tool-for-Coupled-Inductors-with-Nonlinear-Magnetic-Circuits-in-C-/blob/main/images/github_2.png)
+
 ---
 
 ## Physics & Methodology
