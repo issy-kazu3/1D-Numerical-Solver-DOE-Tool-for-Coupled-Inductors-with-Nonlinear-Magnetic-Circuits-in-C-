@@ -22,6 +22,9 @@ Although the magnetic material exhibits nonlinear B-H characteristics, the magne
   - Accounts for multi-path flux leakage, gap reluctance, and saturation effects across various core segments.
   - Computes time-varying current waveforms, self-inductance ($L$), mutual inductance ($M$), and magnetic flux density ($B$).
 
+
+
+
 - **High-Performance C++ DOE Framework**:
   - Sweeps multiple structural and material parameters (core dimensions, air-gap thickness, turn counts, wire dimensions, etc.).
   - Evaluates performance metrics (core loss, copper loss, total volume, peak/ripple currents).
