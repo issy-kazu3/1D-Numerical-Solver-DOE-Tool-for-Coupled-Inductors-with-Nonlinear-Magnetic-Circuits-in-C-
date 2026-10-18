@@ -53,7 +53,7 @@ Although the magnetic material exhibits nonlinear B-H characteristics, the magne
    - **Copper Loss ($P_{cu}$)**: Calculated based on temperature-dependent winding resistance and RMS current.
    - **Core Loss ($P_{fe}$)**: Estimated from dynamic flux density variations using Steinmetz-based or empirical core loss parameters.
   
-![calc](https://github.com/issy-kazu3/1D-Numerical-Solver-DOE-Tool-for-Coupled-Inductors-with-Nonlinear-Magnetic-Circuits-in-C-)
+![calc](https://github.com/issy-kazu3/1D-Numerical-Solver-DOE-Tool-for-Coupled-Inductors-with-Nonlinear-Magnetic-Circuits-in-C-/blob/main/images/github_3.png)
 
 ---
 
