@@ -7,6 +7,12 @@ Coupled inductors are widely used in multi-phase DC-DC converters to achieve com
 
 This repository provides a fast 1D numerical solver written in C++. It models non-linear magnetic circuits based on Hopkinson's law (Ohm's law for magnetic circuits) and Kirchhoff's magnetic flux law. The tool allows power electronics and magnetics engineers to execute multi-parameter sweeps (Design of Experiments / DOE) across tens of thousands of geometry combinations to identify optimal Pareto-front designs prior to running time-consuming 3D Finite Element Method (FEM) simulations.
 
+This work extends the nonlinear 1D magnetic circuit simulation previously developed for a single-phase reactor.
+
+By introducing self- and mutual-inductance magnetic paths, the method can be applied to magnetically coupled reactors whose flux paths are entirely confined within the magnetic core.
+
+Although the magnetic material exhibits nonlinear B-H characteristics, the magnetic behavior can still be solved efficiently using a nonlinear 1D magnetic circuit model, avoiding the need for full 3D FEM analysis during early-stage design exploration.
+
 ---
 
 ## Key Features
