@@ -60,19 +60,20 @@ Although the magnetic material exhibits nonlinear B-H characteristics, the magne
 ## Repository Structure
 
 ```text
-├── CMakeLists.txt
 ├── README.md
-├── config/
-│   ├── sample_bh_curve.csv       # Sample B-H material data
-│   └── parameter_sweep_config.csv # Input parameter ranges for DOE
-├── docs/
-│   └── magnetic_circuit_formulation.pdf  # Theoretical background & equations
-├── include/
-│   ├── MagneticCircuit.hpp
-│   └── Solver.hpp
-├── src/
-│   ├── MagneticCircuit.cpp
-│   ├── Solver.cpp
-│   └── main.cpp
-└── scripts/
-    └── plot_pareto.py            # Python script to visualize loss vs. volume
+├── doc/
+│   ├── DOE_of_Coupled_Magnetic_DCDC.pdf     
+│   └── Nonlinier_magnetic_equation_solution_method.pdf
+├── images/
+│   ├── github_1.png
+│   ├── github_2.png
+│   └── github_3.png
+├── input/
+│   └── input.csv    #sample of BH curve, driving conditions, restrictions
+├── output/
+│   └── resuult.csv    #sample of DOE results
+└── src/
+    ├── CORECALC5X.cpp
+    ├── CORECALC5XDoc.cpp
+    ├── CORECALC5XView.cpp
+    └── CalcArray.cpp
